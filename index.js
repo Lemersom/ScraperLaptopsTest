@@ -12,7 +12,7 @@ app.use('/api/laptop', laptopRouter)
 
 
 app.get('/', async (req, res) => {
-    res.send(`<p>Para a resolução do teste vá até: <a href="http://${API_HOST}:${API_PORT}/api/laptop">http://${API_HOST}:${API_PORT}/api/laptop</a></p>`)
+    res.send(`<p>Para a resolução do teste vá até: <a href="http://${API_HOST}:${API_PORT}/api/laptop?brand=Lenovo&order=asc">http://${API_HOST}:${API_PORT}/api/laptop?brand=Lenovo&order=asc</a></p>`)
 })
 
 
